@@ -1,5 +1,7 @@
 body {
-    height: 4000vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0
 }
 
 
@@ -218,6 +220,15 @@ nav {
     .image-down {
         padding-top: 0 !important;
         left: 0 !important;
+    }
+    .inputs {
+        flex-direction: column;
+    }
+    .footer-button {
+        margin-top: 30px;
+    }
+    .main-buttons {
+        flex-direction: column;
     }
 }
 
@@ -592,6 +603,44 @@ footer {
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
+}
+
+.links-list {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.links-list ul li {}
+
+.link-item {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.link-item-title {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.copy {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 
