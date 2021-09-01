@@ -9,6 +9,10 @@ body {
     min-width: 100vw;
 }
 
+img {
+    max-width: 400px;
+}
+
 
 /* start navbar */
 
@@ -211,6 +215,9 @@ nav {
 
 @media only screen and (max-width: 600px) {
     html {}
+    .inputs input {
+        padding-right: 0px !important;
+    }
     .main_sub_title {
         margin-top: 60px;
     }
